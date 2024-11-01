@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Not Found</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="illustration">
+            <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Server body -->
+                <rect x="40" y="40" width="120" height="120" rx="10" fill="#6366F1" class="server-body"/>
+                <!-- Server face -->
+                <circle cx="85" cy="90" r="8" fill="white" class="eye"/> <!-- Left eye -->
+                <circle cx="115" cy="90" r="8" fill="white" class="eye"/> <!-- Right eye -->
+                <path d="M85 120 Q100 130 115 120" stroke="white" stroke-width="4" class="mouth"/> <!-- Stressed mouth -->
+                <!-- Server details -->
+                <rect x="60" y="50" width="80" height="5" rx="2.5" fill="white" opacity="0.5"/>
+                <rect x="60" y="65" width="80" height="5" rx="2.5" fill="white" opacity="0.5"/>
+                <!-- Sweat drops -->
+                <circle cx="60" cy="75" r="3" fill="#A5B4FC" class="sweat-drop"/>
+                <circle cx="140" cy="75" r="3" fill="#A5B4FC" class="sweat-drop"/>
+                <!-- Question marks -->
+                <text x="35" y="40" font-family="Inter" font-size="20" fill="#6366F1" class="question-mark">?</text>
+                <text x="155" y="40" font-family="Inter" font-size="20" fill="#6366F1" class="question-mark">?</text>
+                <text x="95" y="30" font-family="Inter" font-size="20" fill="#6366F1" class="question-mark">?</text>
+            </svg>
+        </div>
+        <h1>Oops! Not Found</h1>
+        <p>Sorry, the hostname or service you're trying to access does not exist on this server</p>
+        <a href="/" class="back-button">Go Back Home</a>
+    </div>
+</body>
+</html>
